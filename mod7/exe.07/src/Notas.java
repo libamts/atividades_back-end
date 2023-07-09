@@ -1,5 +1,8 @@
 public class Notas {
-
+    /**
+     *
+     * @return Retorna as notas
+     */
     public int getNota1() {
         return nota1;
     }
