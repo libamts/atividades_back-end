@@ -36,7 +36,7 @@ public class Media {
         if ((media)>= 7) {
             return "Parabéns! Sua média é: " +media+ ". Você está aprovado!";
         }
-        else if((media)>4 && (media)<=6){
+        else if((media)>=5){
             return "Quase! Sua média é: " +media+ ". Seu caso ainda tem salvação. Você ficou de recuperação.";
         }
         else {
