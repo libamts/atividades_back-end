@@ -8,7 +8,7 @@ public class Media {
         Scanner s = new Scanner(System.in);
 
         System.out.println("\nOlá! Vamos cálcular sua média?!");
-        System.out.println("\nLembre-se! Esses são os parâmetros da média:" +
+        System.out.println("\nLembre-se! Esses são os parâmetros da média:\n" +
                 "7 - 10: Aprovado;\n" +
                 "5 - 6: Recuperação;\n" +
                 "1 - 4: Dependência.");
@@ -36,11 +36,7 @@ public class Media {
         if ((media)>= 7) {
             return "Parabéns! Sua média é: " +media+ ". Você está aprovado!";
         }
-<<<<<<< HEAD
         else if((media)>=5){
-=======
-        else if((media)>=5 && (media)<=6){
->>>>>>> 204fcc48f5c453b5c3370b1a81136ad37660ce4d
             return "Quase! Sua média é: " +media+ ". Seu caso ainda tem salvação. Você ficou de recuperação.";
         }
         else {
