@@ -39,7 +39,7 @@ public class ListaConvidados {
                 lista1.add(name);
 
             } else {
-                System.out.println("Convidado não adicionado! Você não digitou o sexo corretamente.");
+                System.out.println("Convidado não adicionado! Não digitou um número válido.");
             }
 
             System.out.println("Você deseja adicionar mais algum convidado?");
